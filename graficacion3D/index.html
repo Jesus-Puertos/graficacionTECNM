@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graficación en 3D </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="./css/globals.css"> -->
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="max-w-3xl m-auto mt-4 bg-slate-300 selection:bg-green-200">
+
+
+    <h1 class="text-3xl font-bold text-center">Graficación en 3D</h1>
+    <div class="border-b-2 border-blue-500 mt-2"></div>
+    <p class="text-md">
+        En esta practica se trabajara con webgl para graficar en 3D
+    </p>
+    <ul>
+        <li>
+            Maestro: <strong>Ing. Cristino Calihua Panzo</strong>
+        </li>
+        <li>
+            Alumno: <strong>Jesús Alberto Rodríguez Puertos</strong>
+        </li>
+        <li>
+            Materia: <strong>Graficacion</strong>
+        </li>
+    </ul>
+
+    <canvas id="canvas" width="700" height="500"></canvas>
+
+    <script src="./webgl.js" type="module"></script>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
